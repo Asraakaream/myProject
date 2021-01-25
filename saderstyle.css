@@ -1,0 +1,106 @@
+html {  
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/5.jpg)  ; 
+   background-size: cover;
+  /* filter: blur(4px);*/
+   /*-webkit-filter: blur(4px);*/
+ }
+ p{
+     font-size: 45px;
+    font-family:"Trirong", serif;
+     color: whitesmoke;
+     text-align: center;
+     text-shadow: 2px 2px 5px rgb(240, 242, 245);
+     margin-top: 50px;
+     padding-bottom: 1px;
+     margin-bottom: 10px;
+ }
+ .div1{
+     border: 2px dotted whitesmoke;
+    text-align: center;
+     width: 900px;
+     height: 400px;
+     margin-right: 200px;
+     margin-bottom: 500px;
+     padding: 25px 7px;
+
+ }
+#label1{
+    color: whitesmoke;
+ font-family: Garamond, serif;
+ text-shadow: 2px 2px 5px rgb(240, 242, 245);
+ font-size: 25px;
+ font-style:inherit;
+ padding:  5px 5px;
+ margin-left: 2px;
+}
+input[type=text], select{
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 15px;
+    color: navy solid ;
+    width: 200px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border:rgb(246, 246, 247) solid 2px;
+    font-size: 18px;
+    }
+
+    #txt{
+        color: whitesmoke;
+        background-color: transparent;
+        font-size: 15px;
+        color: navy solid ;
+        width: 250px;
+        padding: 5px 10px;
+        margin-top: 10px;
+       border:rgb(242, 242, 247) solid 2px;
+       box-sizing:border-box;
+       font-size: 20px;
+       margin-left: 20px;
+    }
+
+    #dat{
+        color: whitesmoke;
+        background-color: transparent;
+        font-size: 15px;
+        color: rgb(248, 248, 248) solid ;
+        width: 250px;
+        padding: 5px 10px;
+        margin-top: 10px;
+       border:rgb(242, 242, 247) solid 2px;
+       box-sizing:border-box;
+       font-size: 20px; 
+    }
+
+    
+     textarea{
+        color: whitesmoke;
+        background-color: transparent;
+        font-size: 15px;
+        color: rgb(242, 242, 248) solid ;
+        width: 250px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        border:rgb(241, 241, 250) solid 2px;
+        box-sizing:border-box;
+       font-size: 20px;
+         
+     }
+    #myfile{
+        background-color: transparent;
+        font-size: 15px;
+        color: rgb(245, 245, 252) solid ;
+        width: 140px;
+        padding: 5px 5px;
+        margin-top: 10px;
+       font-size: 20px; 
+    }
+    .fil{
+       
+        text-align:right;
+        padding-right: 200px;
+       
+        align-items: center;
+    }
+
+   
