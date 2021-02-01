@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login</title>
+    <link rel="stylesheet" href="stylecss.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <form  class="form-container" onsubmit="return validate()">
+        <p id="error"> </p>
+        <h3>Login</h3>
+        <div class="form-grp">
+            <label for="username">UserName</label>
+            <input type="text" name="username" placeholder="Username" id="user" required>
+        
+        </div>
+        <div class="form-grp">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" id="pass" required>
+           
+        </div>
+        <div class="form-grp">
+            <button onclick="user1()">Login</button> 
+            
+        </div>
+    </form>
+
+
+    
+    <script src="login.js">
+    </script>
+</body>
+</html>

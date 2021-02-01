@@ -1,0 +1,44 @@
+
+body{
+  background-color:  #b3ffff;
+  background: radial-gradient(rgba(179 , 255, 255 , 0.5) , rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.2));
+  text-align: center;
+}
+
+#nameDiv{
+
+  margin-top: 50px;
+}
+.input{
+  font-size: 25px;
+  color:darkblue ;
+  font-weight:500;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+#entry{
+  width: 150px;
+  height: 40px;
+  font-size: 23px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #2854da;
+  color: white;
+  box-shadow: 10px;
+}
+table{
+  border-collapse: collapse;
+  width: 50%;
+  margin: 50px auto;
+  background-color:rgb(185, 133, 65);
+}
+table , tr , td {
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px;
+}
+td{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #142aa8;
+  text-align: center;
